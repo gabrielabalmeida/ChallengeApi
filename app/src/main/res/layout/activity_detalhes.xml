@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1F1F1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/cabeca"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tamanho_usuario"
+        android:layout_below="@+id/toolbar"
+        android:gravity="center_vertical"
+        android:paddingTop="@dimen/margem_padrao"
+        android:paddingBottom="8dp"
+        android:background="#f7f8fc">
+
+        <ImageView
+            android:id="@+id/imagem"
+            android:layout_width="@dimen/tamanho_usuario"
+            android:layout_height="@dimen/tamanho_usuario"
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="@dimen/margem_padrao"
+            android:layout_marginStart="@dimen/margem_padrao"
+            />
+
+        <TextView
+            android:id="@+id/dono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/segundo_texto"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll_atualizar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:paddingTop="@dimen/tamanho_usuario"
+        android:layout_below="@id/toolbar"
+        android:clipToPadding="false">
+
+        <WebView
+            android:id="@+id/web_view_atualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+    </ScrollView>
+
+    <include layout="@layout/toolbar" android:id="@+id/toolbar" />
+
+</RelativeLayout>

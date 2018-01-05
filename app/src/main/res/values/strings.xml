@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Netshoes Challenge</string>
+
+    <string name="menu_refresh">Recarregar</string>
+    <string name="menu_favorites">Favoritos</string>
+    <string name="menu_about_app">Sobre o aplicativo</string>
+    <string name="menu_logout">Sair</string>
+
+    <string name="anonimo">Anônimo</string>
+    <string name="gist_dono">>%1$s / %2$s</string>
+
+    <string name="sem_conexao">Você está sem internet? Caso esteja ative e tente mais uma vez :)</string>
+    <string name="sem_internet">Não conseguimos enviar seu pedido. Tente um pouco mais tarde.</string>
+    <string name="interno">Estamos com alguns problemas técnicos, tente um pouco mais tarde.</string>
+
+    <string name="tente_novamente">Tente novamente!</string>
+    <string name="nao_carregar">Não foi possível carregar</string>
+</resources>

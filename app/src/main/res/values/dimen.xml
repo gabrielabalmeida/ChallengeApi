@@ -1,0 +1,15 @@
+<resources>
+
+    <dimen name="tamanho_usuario">50dp</dimen>
+
+    <dimen name="margem_padrao">16dp</dimen>
+
+    <dimen name="primeiro_texto">14sp</dimen>
+    <dimen name="segundo_texto">11sp</dimen>
+
+    <dimen name="texto_erro">19dp</dimen>
+
+    <dimen name="margin">8dp</dimen>
+
+    <dimen name="botao">60dp</dimen>
+</resources>

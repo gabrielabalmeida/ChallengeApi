@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/mensagem_erro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="100dp"
+        android:textColor="@color/item_text"
+        android:text="@string/nao_carregar"/>
+
+    <Button
+        android:id="@+id/try_again"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="@dimen/margem_padrao"
+        android:background="@drawable/botao_erro"
+        android:text="@string/tente_novamente"
+        android:textColor="@color/branco"
+        android:layout_margin="@dimen/margem_padrao"
+        style="?android:attr/borderlessButtonStyle" />
+
+</LinearLayout>

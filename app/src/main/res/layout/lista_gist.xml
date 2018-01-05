@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/im_usuario"
+        android:layout_width="@dimen/tamanho_usuario"
+        android:layout_height="@dimen/tamanho_usuario"
+        android:layout_marginRight="@dimen/margem_padrao"
+        android:layout_marginEnd="@dimen/margem_padrao"
+        android:layout_marginLeft="@dimen/margem_padrao"
+        android:layout_marginStart="@dimen/margem_padrao"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tamanho_usuario"
+        android:orientation="vertical"
+        android:layout_marginRight="@dimen/margem_padrao"
+        android:layout_marginEnd="@dimen/margem_padrao"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/nm_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/primeiro_texto"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/tipo_gist"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/segundo_texto"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:id="@+id/linguagem"
+            android:textSize="@dimen/segundo_texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:maxLines="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
